@@ -1,0 +1,359 @@
+echo "# ShorshiWeb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Shorshi/ShorshiWeb.git
+git push -u origin master
+
+<!DOCTYPE html>
+
+
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="overflow: auto;"><!--<![endif]--><head>
+	<meta charset="utf-8">
+	<audio><source src="file:///Users/georgedarjania/Desktop/CONTENT/Time%20Up.wav" type="audio/wav" /></audio>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
+		var wpUrl = "";
+		var rootUrl = "";
+		var isFrontPage = true;
+		var is404 = false;
+		var isSearch = false;
+		// If Page
+		var isArchive = false;
+		var isAdmin = false;
+		var templateUrl = "";
+		var isSingular = false;
+		var ajaxArchiveLink = "";
+		var ajaxUrl = "";
+		var isAttachment = false;
+		var currentLanguage = "en";
+		
+		function isSmallScreen(){
+			if ((screen.width < 480) || (screen.height < 480)) {
+				return true;
+			}
+			return false;
+		}
+		
+		function redirection(){
+			var loc = window.location.href;
+			var path = "entry/" + loc.split("entry/")[1];
+			var newLoc = false;
+			if(isSingular) {
+				newLoc = rootUrl + "#/" + path;
+			} 
+			if(newLoc && !isSmallScreen()){
+				window.location.href = newLoc;
+			}
+		}
+		
+		redirection();
+		
+		function preloadCssImages() {
+			var imgs = ["bm-ui.png","bm-ui-x2.png","loader-black-40.gif"];
+			var iterate = function (i) {
+				if (imgs.length > i) {
+					var img = new Image();
+					img.src = templateUrl + 'css/' + imgs[i];
+					//console.log("loading: " + img.src);
+					img.onLoad = function () {
+						iterate(i + 1);
+					}();
+				};
+			};
+			if(imgs.length) iterate(0);
+		};
+		preloadCssImages();
+	</script>
+	
+		
+	<title>Shorshi | Music/CInema/Post Production Secialist</title>
+	
+	<!-- Site Meta -->
+	<meta name="description" content="Music/CInema/Post Production Secialist">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- /Site Meta -->
+	
+	<!-- Open Graph Meta -->
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="Shorshi">
+	<meta property="og:title" content="Shorshi">
+	<meta property="og:type" content="">
+	<meta property="og:description" content="">
+	<!-- /Open Graph Meta -->
+	
+	<link rel="icon" href="" type="">
+	
+<link rel="stylesheet" id="royalslider-theme-css" href="" type="text/css" media="">
+<link rel="stylesheet" id="scrollbox-css" href="http://bjoernmeier.com/cms/wp-content/themes/bm/js/scrollbox/jquery.scrollbox.css?ver=3.8.7" type="text/css" media="">
+<link rel="stylesheet" id="base-css" href="http:///bjoernmeier.com/cms/wp-content/themes/bm/css/base.css?ver=3.8.7" type="text/css" media="">
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-includes/js/jquery/jquery.js?ver=1.10.2"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+
+<meta http-equiv="Content-Language" content="en-US">
+
+
+<script type="text/javascript">
+	// Anonymized tracking code for Google Analytics
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-43843756-1 ']);
+	_gaq.push(['_setDomainName', '']);
+	_gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>	
+	
+	<audio><source src="file:///Users/georgedarjania/Desktop/CONTENT/Time%20Up.wav" type="audio/mpeg" /></audio>
+</head>
+<body class="home blog" style="overflow: auto;">
+		
+		
+	<div id="wrap" class="show-if-no-js" style="visibility: visible;">
+	
+	
+	
+	
+	
+
+	
+	<header id="splash" style="height: 426px;">
+			<div class="b09-dark-overlay"><br></div>
+			<div class="background-wrap"><div class="background no-select rsHor rsFade rsWebkit3d rsWithBullets" style="top: 393.33333333333337px;"><div class="rsOverflow" style="width: 1338px; height: 426px;"><div class="rsContainer"><div style="z-index: 0; display: none; opacity: 0; -webkit-transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95); transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95);" class="rsSlide"><img class="rsImg rsMainSlideImage" src="" style="visibility: visible; opacity: 1; -webkit-transition: opacity 400ms ease-in-out; transition: opacity 400ms ease-in-out; width: 1338px; height: 892px; margin-left: 0px; margin-top: -233px;"></div><div style="z-index: 0; display: none; opacity: 0; -webkit-transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95); transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95);" class="rsSlide"><img class="rsImg rsMainSlideImage" src="" style="width: 1338px; height: 876px; margin-left: 0px; margin-top: -225px;"></div><div style="z-index: 0; display: none; opacity: 0; -webkit-transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95); transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95);" class="rsSlide"><img class="rsImg rsMainSlideImage" src="" style="width: 1338px; height: 892px; margin-left: 0px; margin-top: -233px;"></div><div style="z-index: 0; display: none; opacity: 0; -webkit-transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95); transition: 0ms cubic-bezier(0.445, 0.05, 0.55, 0.95);" class="rsSlide"><img class="rsImg rsMainSlideImage" src="" style="width: 1338px; height: 910px; margin-left: 0px; margin-top: -242px;"></div><div style="z-index: 0; display: block; opacity: 1; -webkit-transition: 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95); transition: 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95);" class="rsSlide rsActiveSlide"><img class="rsImg rsMainSlideImage" src="" style="width: 1338px; height: 2010px; margin-left: 0px; margin-top: -792px;"></div></div><div class="rsArrow rsArrowLeft" style="display: block;"><div class="rsArrowIcn"></div></div><div class="rsArrow rsArrowRight" style="display: block;"><div class="rsArrowIcn"></div></div></div><div class="rsNav rsBullets"><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet rsNavSelected"><span></span></div><div class="rsNavItem rsBullet"><span></span></div></div></div></div>
+			<div class="header-text">
+				<h1 class="site-title">Shorshi</h1>
+				<div class="sub-site-title">Music   /   CInema   /   Post Production </div>
+			</div>
+			
+			<div class="buttons">
+				<div class="buttons-inner">
+					<div class="button button-primary view-projects no-select">TAKE A LOOK</div>
+					
+				</div>
+			</div>
+	</header>
+	
+	
+	<section id="entries" class="is-focused">
+		<div id="entries-inner">
+						
+						
+			<article class="entry" id="entry-998" data-slug="bazar-noir" style="">
+				<div class="entry-inner">
+					
+					<header>
+						<a class="permalink treated" href="#/entry/bazar-noir/">
+							<h2><span class="the-title">Nelson Project</span><span class="the-metadata"> / TV</span></h2>
+						</a>
+					</header><!-- /header -->
+					<div class="entry-content">
+						
+						<div class="description">
+							<p>You may see him as an ordinary gental man, but the name "Devon Nelson" is unlike anyone you've ever heard of. So don't be surprised when you're future children learn about him in public school history books.  </p>
+<p><a title="" href="" target="_blank"></a><br>
+<a title="Bazar Noir Berlin" href="" target="_blank"></a><br>
+<br>
+<a title="Shorshi" href="" target="_blank"></a><br>
+<a title="" href="h" target="_blank"></a></p>
+													</div> <!-- /description -->
+						<div class="images">
+																														<div class="image">
+									<a class="src rsImg no-select" href="https://lh4.googleusercontent.com/-PgvUcSziaNM/VUaJYQuipdI/AAAAAAAAAHo/yTp96cm5f4c/w1016-h677-no/IMG_2208.JPG">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+									
+																						
+						</div>
+					</div> <!-- /entry-content -->
+				</div><!-- /entry-inner -->
+			</article>
+			
+					
+						
+						
+			<article class="entry current" id="entry-782" data-slug="ophelis-docks" style="height: 336px;"><nav class="projects-nav" style="display: block;">
+		<ul>
+			<li class="ui-button close-project"><span class="ui"><br></span></li>
+			<li class="ui-button prev-project"><span class="ui"><br></span></li>
+			<li class="ui-button next-project"><span class="ui"><br></span></li>
+			<li class="ui-button scroll-project" style="display: list-item;"><span class="ui"><br></span></li>
+			<li class="ui-button loading-project" style="display: none;"><span class="ui"><br></span></li>
+		</ul>
+	</nav>
+				<div class="entry-inner">
+					
+					<header>
+						<a class="permalink treated" href="#/entry/ophelis-docks/">
+							<h2><span class="the-title">Pussy Cat Problem</span><span class="the-metadata"> / Thriller</span></h2>
+						</a>
+					</header><!-- /header -->
+					<div class="entry-content">
+						<div class="description">
+							<p>When a rich and powerful cat enthusiant and his Assistant steal a cat from a dangerous witch, consequesnces must be dealt with. Consequences such as having to battle an army of young witch interns.</p>
+
+
+<p><a title="Devon Nelson" href="" target="_blank"></a>&nbsp; <a title="" href="" target="_blank"></a><br>
+<a title="" href="https://plus.google.com/u/0/photos/115996960412555709360/albums/6144749791462588593" target="_blank"></a></p>
+													</div> <!-- /description -->
+						<div class="images">
+																														<div class="image">
+									<a class="src rsImg no-select" href="https://lh6.googleusercontent.com/-8f_zmQuND9s/VUaJhgCj37I/AAAAAAAAAEo/C2kBfSKrv64/w1016-h677-no/IMG_9051.JPG">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+																							<div class="image">
+									<a class="src rsImg no-select" href="https://lh3.googleusercontent.com/-6tZjIWjX9fw/VUaJgdobbKI/AAAAAAAAAIg/QDYWuoIoA0s/w1016-h591-no/IMG_8677.jpg">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+																							<div class="image">
+									<a class="src rsImg no-select" href="https://lh5.googleusercontent.com/-7Ieq82L-yYk/VUaVpbK05-I/AAAAAAAAAJs/TmoUElFQxjE/w1015-h723-no/IMG_8692.jpg">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+																							<div class="image">
+									<a class="src rsImg no-select" href="https://lh3.googleusercontent.com/-gnjRxfi8GDQ/VUaJglniFJI/AAAAAAAAAJI/s7TWFW24e7g/w1016-h616-no/IMG_8692.jpg">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+																							<div class="image">
+									<a class="src rsImg no-select" href="https://lh4.googleusercontent.com/-rsffcaI5e38/VUaJf1UX09I/AAAAAAAAAEU/_DEzHxfiCSo/w1016-h677-no/IMG_7858.JPG">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+																							<div class="image">
+									<a class="src rsImg no-select" href="https://lh4.googleusercontent.com/-4o3b5RlnEf0/VW-oBo_EbzI/AAAAAAAAAMU/NOSIVYgBsn0/w478-h319-no/PISO.gif">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>
+									<a class="src rsImg no-select" href="https://lh4.googleusercontent.com/-4o3b5RlnEf0/VW-oBo_EbzI/AAAAAAAAAMU/NOSIVYgBsn0/w478-h319-no/PISO.gif">
+										
+									</a>
+									<div class="caption">
+																			</div>
+								</div>														
+																						
+						</div>
+					</div> <!-- /entry-content -->
+				</div><!-- /entry-inner -->
+			<div id="scrollbox-678" class="scrollbox visible" style="opacity: 1; height: 370px; top: 472px;"><div class="scrollbox-nav"><ul><li><a href="#/" class="btnClose"><span class="ui">close</span></a></li><li><a href="##" class="btnPrev">prev</a></li><li><a href="##" class="btnNext">next</a></li><li><a href="##" class="btnScroll" style="display: block;">scroll <span class="ui">→</span></a></li><li><span class="loading" style="display: none;">Lade Bilder...</span></li><li><a href="##" class="leftClickArea clickArea" style="visibility: hidden; height: 0px;"><span class="ui"></span>prev</a></li></ul></div><div class="scrollbox-overlay"></div><div class="scrollbox-title"></div><div class="scrollbox-content"><div class="scrollbox-content-inner" style="width: 6625px;"><div class="scrollbox-element scrollbox-introduction" style="width: 1050px;"><div class="columnize" id="jcols_6" style="width: 1050px;"><div class="column"><p></p></div><div class="column"><p class="continued"></p>
+													</div></div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 140px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 140px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src=" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 140px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 140.93959731543623px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 313.4328358208955px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 333.3333333333333px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 140px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-image" style="height: 210px; cursor: pointer;"><img src="" style="opacity: 1; -webkit-user-select: none; height: 210px; width: 295.77464788732397px;"><div class="caption">
+																			</div></div><div class="scrollbox-element scrollbox-element-next-link" style="height: 210px;"><a class="next-post-link" href="" »'=""><div class=""><div class="text"></div><div class="ui"></div></div></a></div></div></div></div></article>
+			
+					
+						
+						
+			
+	
+	<div id="footer" style="height: 811px;">
+		<div class="b09-dark-overlay"><br></div>
+		<div class="background-wrap"><div class="background rsHor rsFade rsWebkit3d rsWithBullets" style="top: -1228.3333333333335px;"><div class="rsOverflow" style="width: 1338px; height: 811px;"><div class="rsContainer"><div style="z-index:0;" class="rsSlide  rsActiveSlide"><img class="rsImg rsMainSlideImage" src="" style="visibility: visible; opacity: 1; -webkit-transition: opacity 400ms ease-in-out; transition: opacity 400ms ease-in-out; width: 1339px; height: 978px; margin-left: -1px; margin-top: -84px;"></div></div><div class="rsArrow rsArrowLeft" style="display: none;"><div class="rsArrowIcn"></div></div><div class="rsArrow rsArrowRight" style="display: none;"><div class="rsArrowIcn"></div></div></div><div class="rsNav rsBullets"><div class="rsNavItem rsBullet rsNavSelected"><span></span></div></div></div></div>
+		<div class="footer-text">
+			<div class="columns">
+										<div class="column column-1">
+							<div class="column-inner">
+																<section class="element">
+									<header>
+										<h2>Contact</h2>
+									</header>
+									
+									<div class="element-body">
+										<p>George Darjania<br>
+Los Angeles<br>
+<br>
+California</p>
+<p>Telefone <a href="tel:1(858) 243 0702">1(858) 243 0702</a><br>
+<br>
+<a href="mailto:george.darjania@gmail.com">george.darjania@gmail.com</a></p>
+									</div>
+								</section>
+															</div>
+						</div>
+											<div class="column column-2">
+							<div class="column-inner">
+																<section class="element">
+									<header>
+										<h2>About</h2>
+									</header>
+									
+									<div class="element-body">
+										<div title="Page 10">
+<div>
+<div>
+<p>George Darjania (* 1989) was born in the former Soviet Union and was raised in Europe, South America, and the United States . Growing up in such diversity, he absorbed many cultural, musical, and cinematic influences. He origionally studied music composition and performed as a concert pianist. Now, he's been woking out of a his Studio in Los Ageles since 2014, persuing a career in Computer Science and freelancing in variouse artistic fields within the relm of Multimedia. </p>
+</div>
+</div>
+</div>
+									</div>
+								</section>
+															</div>
+						</div>
+											<div class="column column-3">
+							<div class="column-inner">
+																<section class="element">
+									<header>
+										<h2></h2>
+									</header>
+									
+									<div class="element-body">
+										<p><br>
+</a> <a title="Basics09" href="http://basics09.de" target="_blank"></a></p>
+									</div>
+								</section>
+															</div>
+						</div>
+								</div><!-- columns -->
+		</div>
+	</div>
+	</div><!-- /wrap -->
+	<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/jquery.easing.min.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/modernizr-2.6.2.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/royalslider/jquery.royalslider.min.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/verge.min.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/jquery.image-utils.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/jquery.viewport.min.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/jquery.mousewheel.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/scrollbox/jquery.scrollbox.js?ver=3.8.7"></script>
+<script type="text/javascript" src="http://bjoernmeier.com/cms/wp-content/themes/bm/js/all.js?ver=3.8.7"></script>
+
+
+</body><audio autoplay>
+  <source src="file:///Users/georgedarjania/Desktop/Wake%202.wav" type="audio/wav">
+  
+Your browser does not support the audio element.
+</audio></html>
